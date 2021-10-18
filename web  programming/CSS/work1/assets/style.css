@@ -1,0 +1,77 @@
+
+/*Colors and font family*/
+body {
+  background-color: #fffbffff;
+  color: #fffbffff;
+  background-size: cover;
+  background-image: url(../assets/bg.jpeg);
+}
+
+/*Nav bar background*/
+nav {
+  background: transparent;
+}
+
+/*nav bar content arrangment*/
+.nav-table {
+  padding: auto;
+  letter-spacing: 2px;
+  border-spacing: 20px;
+  text-transform: uppercase;
+}
+/* link design*/
+a {
+  text-decoration: none;
+  font-size: 1.25em;
+  color: #fffbffff;
+  font-family: monospace;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+/*article*/
+/*fix for links in the text*/
+.link-in-text {
+  text-decoration: underline;
+  font-size: 1em;
+}
+/*product table design begin*/
+.p_name {
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.p_img {
+  width: 250px;
+}
+
+.p_price {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.p_button {
+  text-align: center;
+  font-size: 2em;
+  width: 8em;
+}
+
+.product-table {
+  border-spacing: 30px;
+}
+/*product table design end*/
+
+h3 {
+  text-align: center;
+}
+/*Comments design*/
+ul li {
+  margin: 0 20px 30px 0;
+  vertical-align: top;
+}
+/*About*/
+.about{
+  background-color: rgba(79, 122, 110, 0.5);
+}
