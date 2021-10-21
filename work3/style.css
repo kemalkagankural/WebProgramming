@@ -1,0 +1,67 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../work3/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.clock{
+  position: relative;
+  width: 40rem;
+  height: 40rem;
+  border: 2px solid white;
+  border-radius: 50%;
+  background: url("../work3/clock.svg") center;
+  background-repeat: no-repeat;
+  background-size: 95%;
+}
+.secs{
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  height: 12rem;
+  width: .1rem;
+  background-color: tomato;
+  transform: rotateX(-50%);
+  transform-origin: 25% 0;
+}
+.mins{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 11rem;
+  width: .2rem;
+  border-radius: 20px;
+  background-color: black;
+  transform-origin: 25% 0;
+  transform: rotateX(-50%);
+}
+.hours{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  height: 9rem;
+  width: .2rem;
+  background-color: black;
+  border-radius: 20px;
+  transform: rotateX(-50%);
+  transform-origin: 50% 0;
+}
+.dot {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  background-color: black;
+  transform: translateX(-50%);
+}
